@@ -1,40 +1,26 @@
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Hasphotography HTML Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-    
+/*  
     CSS INDEX
-    ===================
-	
-    01. Template default CSS
-    02. Header style
-    03. Hero style
-    04. Footer style
-    05. About us style
-    06. Section title style
-    07. Breadcrumb style
-    08. Contact us style
-    09. Blog style
-    10. Gallery style
+    =========================================
+    01. header css here
+    02. slider area css here
+    03. blog css here
+    04. blog details css here
+    05. other css here
+    06. footer css here
+    07. about css here
+    08. services page css here
+*/
 
------------------------------------------------------------------------------------*/
-@import "./bootstrap/functions";
-@import "variabls";
-@import "custom-variables";
-@import "./bootstrap/bootstrap";
-
-@import "common";
-@import "header";
-@import "hero";
-@import "footer";
-@import "about-us";
-@import "section-title";
-@import "breadcrumb";
-@import "contact-us";
-@import "blog";
-@import "gallery";
+@import 'variabls';
+@import 'common';
+@import 'section/header';
+@import 'section/footer';
+@import 'section/other';
+@import 'section/blog';
+@import 'section/blog-details';
+@import 'section/contact';
+@import 'section/about';
+@import 'section/portfolio';
 
 
 
